@@ -1,0 +1,20 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "joi": "^17.4.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-compose": "^4.1.0",
+    "koa-router": "^10.0.0",
+    "log4js": "^6.3.0"
+  }
+}
